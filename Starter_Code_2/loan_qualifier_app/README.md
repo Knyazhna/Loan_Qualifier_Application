@@ -22,6 +22,7 @@ Before running the application first install the following dependencies.
   pip install fire
   pip install questionary
 ```
+
 ```
 import sys
 import fire
@@ -56,9 +57,9 @@ After information input, CLI will prompt you to save or not to save csv file.
 
 ## Contributors
 
-Brought to you by Olga Koryachek.
-**Email: olgakoryachek@live.com
-[LinkedIn](https://www.linkedin.com/in/olga-koryachek-a74b1877/?msgOverlay=true)
+* Brought to you by Olga Koryachek.
+* Email: olgakoryachek@live.com
+* [LinkedIn](https://www.linkedin.com/in/olga-koryachek-a74b1877/?msgOverlay=true)
 
 
 ---
