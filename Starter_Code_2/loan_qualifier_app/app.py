@@ -10,6 +10,7 @@ import sys
 import fire
 import questionary
 from pathlib import Path
+from tkinter import filedialog
 
 from qualifier.utils.fileio import load_csv, save_csv
 
@@ -111,16 +112,18 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
+    
+    csvpath = Path("qualifying_loans.csv")
+    save_csv(csvpath, qualifying_loans)
 
     action = questionary.select("Would you like to save your qualifying loans to csv file?",
         choices = ["yes", "no"]).ask()
     if action == "no":
         sys.exit("Thank you for using loan qualifier!")
     elif action == "yes":    
-        results = questionary.text("Enter a file path where you would like you results to be saved (.csv):").ask()
-    csvpath = Path("qualifying_loans.csv")
-    save_csv(csvpath, qualifying_loans)
-
+        outputpath = filedialog.askdirectory()
+        results = questionary.text("Enter a file path where you would like you results to be saved (.csv):", {outputpath}).ask()
+        
 
 def run():
     """The main function for running the script."""

@@ -36,7 +36,7 @@ def save_csv(csvpath, data):
     Args:
         csvpath (Path): The CSV file path.
         data (list of lists): A list of the rows of data for the CSV file.
-        header (list): An optional header for the CSV.
+        header (list): CSV header for user
 
     """
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
@@ -45,3 +45,4 @@ def save_csv(csvpath, data):
         if header:
             csvwriter.writerow(header)
         csvwriter.writerows(data)
+
