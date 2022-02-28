@@ -9,11 +9,8 @@ Example:
 import sys
 import fire
 import questionary
-import shutil
-import csv
 from pathlib import Path
-from tkinter import filedialog
-from tempfile import NamedTemporaryFile
+
 
 from qualifier.utils.fileio import load_csv, save_csv
 
@@ -119,15 +116,15 @@ def save_qualifying_loans(qualifying_loans):
     csvpath = Path("qualifying_loans.csv")
     save_csv(csvpath, qualifying_loans)
 
+    """Translating the Business Requirements into Code"""
+
     action = questionary.select("Would you like to save your qualifying loans to csv file?",
         choices = ["yes", "no"]).ask()
     if action == "no":
         sys.exit("Thank you for using loan qualifier!")
-    elif action == "yes":    
-        outputpath = filedialog.askdirectory()
-        #save_csv(csvpath, save_qualifying_loans)
-        results = questionary.text("Enter a file path where you would like you results to be saved (.csv):", {outputpath}).ask()
-        
+    else:   
+        results = questionary.text("Enter a file path where you would like you results to be saved (.csv):").ask()
+        save_csv(Path(results), qualifying_loans)
 
 def run():
     """The main function for running the script."""
