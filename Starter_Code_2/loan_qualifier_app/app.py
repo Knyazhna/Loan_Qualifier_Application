@@ -110,9 +110,13 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
 
-    csvpath = Path("qualifying_loans.csv")
-    save_csv(csvpath, qualifying_loans)
-
+    action = questionary.text("Would you like to save your qualifying loans to csv file? y\n").confirm.ask
+    if action == "n":
+        sys.exit("Thank you for using loan qualifier!")
+    elif action == "y":    
+        csvpath = Path("qualifying_loans.csv")
+        save_csv(csvpath, qualifying_loans)
+    csvpath = questionary.text("Enter a file path where you would like you results to be saved (.csv):").ask()
 
 def run():
     """The main function for running the script."""
