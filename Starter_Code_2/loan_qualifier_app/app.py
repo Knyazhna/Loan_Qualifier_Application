@@ -121,7 +121,6 @@ def save_qualifying_loans(qualifying_loans):
     csvpath = Path("qualifying_loans.csv")
     save_csv(csvpath, qualifying_loans)
 
-    return action 
 
 def run():
     """The main function for running the script."""
