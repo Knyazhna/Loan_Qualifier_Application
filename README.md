@@ -20,15 +20,6 @@ In this section, you should include detailed installation notes containing code 
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
----
-
-## Contributors
-
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
-
----
-
-
 
 
 # Loan Qualifier Application
@@ -76,7 +67,9 @@ Upon launching the loan qualifier application you will be greeted with the follo
 
 ## Contributors
 
-Brought to you by ET Home Loans.
+Brought to you by Olga Koryachek.
+Email: **olgakoryachek@live.com
+[LinkedIn](https://www.linkedin.com/in/olga-koryachek-a74b1877/?msgOverlay=true)
 
 ---
 
