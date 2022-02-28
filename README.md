@@ -1,30 +1,6 @@
-# Project Title
-
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
-
----
-
-## Technologies
-
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
-
----
-
-## Installation Guide
-
-In this section, you should include detailed installation notes containing code blocks and screenshots.
-
----
-
-## Usage
-
-This section should include screenshots, code blocks, or animations explaining how to use your project.
-
-
-
 # Loan Qualifier Application
 
-This is a python command-line interface application that allows users to see qualifying loans from lenders quickly and easily. The application works by taking in a `daily_rate_sheet` of loan criteria from various loan providers, asking the user a number of questions to evaluate their loan eligibility, and then returning to them a list of qualifying loans.
+This is a python command-line interface application that allows users to see qualifying loans from lenders quickly and easily. The application works by taking in a `daily_rate_sheet` of loan criteria from various loan providers, asking the user a number of questions to evaluate their loan eligibility, and then returning to them a list of qualifying loans. User also has an ability to save a list of qualifying loans to a new csv file, so user can share the resuts as a spreadsheet.
 
 ---
 
@@ -46,7 +22,10 @@ Before running the application first install the following dependencies.
   pip install fire
   pip install questionary
 ```
-
+import sys
+import fire
+import questionary
+```
 ---
 
 ## Usage
@@ -55,25 +34,35 @@ To use the loan qualifier application simply clone the repository and run the **
 
 
 ```python
-python app.py
+python3 app.py
 ```
 
 Upon launching the loan qualifier application you will be greeted with the following prompts.
-
-![Loan Qualifier Prompts](Images/loan_qalifier.png)
-
+*Enter a file path to a rate-sheet (.csv):
+When prompted for your CSV file path, please enter ./data/daily_rate_sheet.csv.
+Few additional pieces of information will need to be provided:
+```
+    credit_score = questionary.text("What's your credit score?").ask()
+    debt = questionary.text("What's your current amount of monthly debt?").ask()
+    income = questionary.text("What's your total monthly income?").ask()
+    loan_amount = questionary.text("What's your desired loan amount?").ask()
+    home_value = questionary.text("What's your home value?").ask()
+```
+After information input, CLI will prompt you to save or not to save csv file. 
 
 ---
 
 ## Contributors
 
-Brought to you by Olga Koryachek.
-Email: **olgakoryachek@live.com
+```Brought to you by Olga Koryachek.
+**Email: olgakoryachek@live.com
 [LinkedIn](https://www.linkedin.com/in/olga-koryachek-a74b1877/?msgOverlay=true)
+```
 
 ---
 
 ## License
 
-[MIT License](https://choosealicense.com/licenses/mit/)
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+
 
