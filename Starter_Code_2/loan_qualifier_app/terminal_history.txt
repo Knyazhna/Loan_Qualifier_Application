@@ -1,0 +1,223 @@
+821  cd ..
+  822  cd Module_2_Challenge
+  823  ls
+  824  cd Module_2_Challenge
+  825  ls
+  826  git clone git@github.com:Knyazhna/Module_2_Challenge.git
+  827  ls
+  828  cd ..
+  829  ls
+  830  cd Module_2_Challenge
+  831  ls
+  832  ls
+  833  cd Module_2_Challenge
+  834  l
+  835  ls
+  836  git status
+  837  git add README.md
+  838  git status
+  839  ls
+  840  git add Starter_Code 2
+  841  git add Starter_Code 2/
+  842  git add Starter_Code 2
+  843  git add .
+  844  git status
+  845  git commit -m "Edited README and added Starter 2 files"
+  846  git status
+  847  git push
+  848  cd ..
+  849  cd ..
+  850  ls
+  851  cd github_upload
+  852  ls
+  853  cd Fintech
+  854  ls
+  855  git status
+  856  git add .
+  857  ls
+  858  status
+  859  git status
+  860  git commit -m "Applied Markdown Styling to README file"
+  861  git status
+  862  git push
+  863  git push --set-upstream origin header
+  864  git push main
+  865  cd
+  866  ls
+  867  cd Desktop
+  868  cd Fintech_Workspace
+  869  ls
+  870  cd Fintech-Workspace
+  871  ls
+  872  cd github_upload
+  873  ls
+  874  cd Fintech
+  875  ls
+  876  git push main
+  877  git add .
+  878  git commit -m "Saved Readme file with changes and updated"
+  879  git status
+  880  git push
+  881  git add .
+  882  git commit -m "Added horizontal line in readme"
+  883  git commit
+  884  git push
+  885  git add .
+  886  git commit -m "Inserted code snippets and mark a set of text as a code block"
+  887  git push
+  888  git commit -m "Inserted code snippets and mark a set of text as a code block"\n
+  889  git push
+  890  git status
+  891  git add
+  892  git add .
+  893  git commit -m "Inserted code snippets and mark a set of text as a code block"
+  894  git push
+  895  git status
+  896  git add .
+  897  git commit -m "Create a Block Quote"
+  898  git push
+  899  git add .
+  900  git commit -m "Add Hyperlinks"
+  901  git push
+  902  git add .
+  903  git commit -m "Added an Image to readme file"
+  904  pit push
+  905  git push
+  906  cd ..
+  907  cd ..
+  908  ls
+  909  cd Python_Project
+  910  ls
+  911  cd ..
+  912  ls
+  913  cd github_upload
+  914  ls
+  915  git add .
+  916  git commit -m "added another readme file to practice formatting readme files for projects"
+  917  git push
+  918  git push
+  919  git clone git@github.com:Knyazhna/Fintech.git
+  920  clear
+  921  cd ..
+  922  ls
+  923  cd Module_2_Challenge
+  924  clear
+  925  history 50 > teminal_history.txt
+  926  history 50 > terminal_history.txt
+  927  ls
+  928  cd Module_2_Challenge
+  929  ls
+  930  cd Starter_Code 2
+  931  cd Starter_Code 2
+  932  cd Starter_Code_2
+  933  ls
+  934  cd loan_qualifier_app
+  935  ls
+  936  python3 app.py
+  937  python3 app.py
+  938  git add .
+  939  git status
+  940  git commit -m "Updated name of the Starter_Code 2 file to all snake case and added save_csv function"
+  941  git push
+  942  pwd
+  943  python3 app.py
+  944  python3 app.py
+  945  python3
+  946  cd Desktop
+  947  cd Fintech-Workspace
+  948  ls
+  949  cd Module_2_Challenge
+  950  ls
+  951  cd Module_2_Challenge
+  952  ls
+  953  cd Starter_Code_2
+  954  ls
+  955  cd loan_qualifier_app
+  956  ls
+  957  python3 app.py
+  958  git add .
+  959  git commit -m "Created save_csv function, moved it under utils fileio.py, imported save_csv under save_qualifying_loans function."
+  960  git push
+  961  pwd
+  962  ls
+  963  python3 app.py
+  964  python3 app.py
+  965  python3 app.py
+  966  python3 app.py
+  967  python3 app.py
+  968  python3 app.py
+  969  python3 app.py
+  970  python3 app.py
+  971  git add .
+  972  git commit -m "added questionary library to choose if customer want to save results or not"
+  973  git push
+  974  python3 app.py
+  975  python3 app.py
+  976  python3 app.py
+  977  git add . 
+  978  git commit -m "a\nAdded notification and exit function for zero qualified loans"
+  979  git push
+  980  python3 app.py
+  981  python3 app.py
+  982  python3 app.py
+  983  python3 app.py
+  984  python3 app.py
+  985  python3 app.py
+  986  python3 app.py
+  987  git add .
+  988  git commit -m "Added header to csv file"
+  989  git push
+  990  python3 app.py
+  991  python3 app.py
+  992  python3 app.py
+  993  python3 app.py
+  994  python3 app.py
+  995  python3 app.py
+  996  python3 app.py
+  997  python3 app.py
+  998  python3 app.py
+  999  python3 app.py
+ 1000  python3 app.py
+ 1001  git add .
+ 1002  git commit -m "Inserted user directory selection for choosing where file should be saved."
+ 1003  git push
+ 1004  git push
+ 1005  cd
+ 1006  cd Desktop
+ 1007  cd Fintech-Workspace
+ 1008  cd Module_2_Challenge
+ 1009  ls
+ 1010  cd Module_2_Challenge
+ 1011  ls
+ 1012  cd Starter_Code_2
+ 1013  git add .
+ 1014  git commit -m "Inserted user directory selection for choosing where file should be saved."
+ 1015  git push
+ 1016  python3 app.py
+ 1017  pwd
+ 1018  ls
+ 1019  cd loan_qualifier_app
+ 1020  ls
+ 1021  python3 app.py
+ 1022  python3 app.py
+ 1023  python3 app.py
+ 1024  python3 app.py
+ 1025  python3 app.py
+ 1026  pyhton3 app.py
+ 1027  python3 app.py
+ 1028  python3 app.py
+ 1029  python3 app.py
+ 1030  python3 app.py
+ 1031  git add .
+ 1032  git commit -m "Working on saving csv file for selected output path"
+ 1033  git push
+ 1034  python3 app.py
+ 1035  python3 app.py
+ 1036  python3 app.py
+ 1037  python3 app.py
+ 1038  python3 app.py
+ 1039  python3 app.py
+ 1040  python3 app.py
+ 1041  git add .
+ 1042  git commit -m "Resolved error with Path csv save and cleaned up docstring"
+ 1043  git push
