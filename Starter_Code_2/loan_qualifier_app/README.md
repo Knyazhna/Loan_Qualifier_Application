@@ -22,6 +22,7 @@ Before running the application first install the following dependencies.
   pip install fire
   pip install questionary
 ```
+```
 import sys
 import fire
 import questionary
@@ -40,17 +41,25 @@ python3 app.py
 Upon launching the loan qualifier application you will be greeted with the following prompts.
 *Enter a file path to a rate-sheet (.csv):
 When prompted for your CSV file path, please enter ./data/daily_rate_sheet.csv.
+Few additional pieces of information will need to be provided:
 
-
+```
+    credit_score = questionary.text("What's your credit score?").ask()
+    debt = questionary.text("What's your current amount of monthly debt?").ask()
+    income = questionary.text("What's your total monthly income?").ask()
+    loan_amount = questionary.text("What's your desired loan amount?").ask()
+    home_value = questionary.text("What's your home value?").ask()
+```
+After information input, CLI will prompt you to save or not to save csv file. 
 
 ---
 
 ## Contributors
 
-```Brought to you by Olga Koryachek.
+Brought to you by Olga Koryachek.
 **Email: olgakoryachek@live.com
 [LinkedIn](https://www.linkedin.com/in/olga-koryachek-a74b1877/?msgOverlay=true)
-```
+
 
 ---
 

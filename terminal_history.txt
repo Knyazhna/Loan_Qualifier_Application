@@ -1,7 +1,4 @@
-821  cd ..
-  822  cd Module_2_Challenge
-  823  ls
-  824  cd Module_2_Challenge
+824  cd Module_2_Challenge
   825  ls
   826  git clone git@github.com:Knyazhna/Module_2_Challenge.git
   827  ls
@@ -221,3 +218,24 @@
  1041  git add .
  1042  git commit -m "Resolved error with Path csv save and cleaned up docstring"
  1043  git push
+ 1044  history 50 > terminal_history.txt
+ 1045  git add .
+ 1046  git commit -m "Adding Readme formating"
+ 1047  git push
+ 1048  git add .
+ 1049  git status
+ 1050  cd ..
+ 1051  ls
+ 1052  cd ..
+ 1053  ls
+ 1054  git add .
+ 1055  git status
+ 1056  git commit -m"Updating entire Module_2_Challenge folder."
+ 1057  git push
+ 1058  git add .
+ 1059  git commit -m "Updated License and Contributors sections in readme"
+ 1060  git push
+ 1061  git add .
+ 1062  git status
+ 1063  git commit -m "Updates to Readme file with Usage and Installation guide."
+ 1064  git push
